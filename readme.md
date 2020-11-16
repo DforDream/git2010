@@ -43,10 +43,11 @@
 2. 本地工作区先提交到本地仓库
 3. git remote add origin 远程仓库地址 本地仓库和远程仓库关联
 4. git remote -v 查看本地仓库关联的远程仓库
-5. git push -u origin master 第一次执行
+5. 先更新pull 在 push  避免代码合并
+6. git push -u origin master 第一次执行
     git push 把本地仓库推送到远程仓库
     -u origin master 设置默认提交master分支到origin
-6. git push -u -f origin master 强制推送到远程，不推荐！！
+7. git push -u -f origin master 强制推送到远程，不推荐！！
 
 ## 下载项目到本地
 1. 克隆项目：git clone 项目远程仓库地址 整个版本库克隆下来
